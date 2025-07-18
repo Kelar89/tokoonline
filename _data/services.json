@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Garansi Produk Asli",
+    "description": "Kami menjamin semua produk yang Anda terima adalah 100% asli dan berkualitas tinggi.",
+    "icon": "bi-patch-check-fill"
+  },
+  {
+    "title": "Pengiriman Cepat & Aman",
+    "description": "Setiap pesanan diproses dengan cepat dan dikemas dengan aman untuk sampai ke tangan Anda.",
+    "icon": "bi-box-seam-fill"
+  },
+  {
+    "title": "Layanan Pelanggan Responsif",
+    "description": "Tim kami siap menjawab semua pertanyaan Anda melalui WhatsApp dengan cepat dan ramah.",
+    "icon": "bi-headset"
+  },
+  {
+    "title": "Transaksi Mudah",
+    "description": "Pesan langsung via WhatsApp tanpa perlu melalui proses checkout yang rumit dan panjang.",
+    "icon": "bi-phone-fill"
+  },
+  {
+    "title": "Harga Kompetitif",
+    "description": "Dapatkan produk berkualitas dengan penawaran harga terbaik yang kami berikan khusus untuk Anda.",
+    "icon": "bi-tags-fill"
+  },
+  {
+    "title": "Update Koleksi Terbaru",
+    "description": "Kami selalu menghadirkan koleksi produk fashion terbaru agar Anda tidak ketinggalan tren.",
+    "icon": "bi-star-fill"
+  }
+]

@@ -19,3 +19,46 @@ description: "Selamat datang di toko kami. Temukan produk terbaik dengan penawar
     </div>
   </div>
 </div>
+
+<div class="container my-5 py-5">
+    <div class="row text-center mb-5">
+      <div class="col">
+        <h2 class="fw-bold">Keunggulan Toko Kami</h2>
+        <p class="lead">Komitmen kami untuk memberikan yang terbaik bagi Anda.</p>
+      </div>
+    </div>
+    <div class="row g-4">
+      {%- for service in services -%}
+      <div class="col-md-6 col-lg-4">
+        <div class="text-center">
+          <i class="{{ service.icon }} fs-1 text-primary"></i>
+          <h4 class="fw-bold my-3">{{ service.title }}</h4>
+          <p class="text-muted">{{ service.description }}</p>
+        </div>
+      </div>
+      {%- endfor -%}
+    </div>
+</div>
+<div class="bg-light py-5">
+  <div class="container">
+    <div class="row text-center mb-4">
+      <div class="col">
+        <h2 class="fw-bold">Apa Kata Mereka?</h2>
+        <p class="lead">Testimoni dari pelanggan yang sudah puas berbelanja di toko kami.</p>
+      </div>
+    </div>
+    <div class="row">
+      {%- for review in reviews | limit(4) -%}
+      <div class="col-lg-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <img src="{{ review.avatar }}" alt="Avatar for {{ review.author }}" class="rounded-circle mb-3" style="width: 80px;">
+            <p class="fst-italic">"{{ review.quote }}"</p>
+            <footer class="blockquote-footer mt-3">{{ review.author }}, <cite title="Source Title">{{ review.origin }}</cite></footer>
+          </div>
+        </div>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>

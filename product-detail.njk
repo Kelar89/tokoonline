@@ -1,0 +1,36 @@
+---
+layout: base.njk
+pagination:
+  data: products
+  size: 1
+  alias: product
+permalink: /produk/{{ product.slug }}/index.html
+---
+
+<div class="container my-5">
+  <div class="row g-5">
+    
+    <div class="col-lg-6">
+      <img src="{{ product.image }}" alt="{{ product.title }}" class="img-fluid rounded shadow">
+    </div>
+
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold">{{ product.title }}</h1>
+      <p class="text-muted">{{ product.category }}</p>
+
+      <h2 class="my-4 text-primary fw-bolder">Rp{{ product.price | string | replace(",", ".") }}</h2>
+
+      <p class="lead">{{ product.description }}</p>
+
+      <div class="d-grid gap-2 mt-4">
+        <a href="https://wa.me/{{ metadata.contact.whatsapp }}?text=Halo, saya ingin pesan produk '{{ product.title | url_encode }}'." target="_blank" class="btn btn-success btn-lg">
+          <i class="bi bi-whatsapp"></i> Pesan Sekarang via WhatsApp
+        </a>
+        <a href="{{ '/produk/' | url }}" class="btn btn-outline-secondary">
+          <i class="bi bi-arrow-left"></i> Kembali ke Semua Produk
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
