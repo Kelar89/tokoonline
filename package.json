@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Website toko online berbasis WhatsApp menggunakan Eleventy dan Bootstrap 5.",
   "main": ".eleventy.js",
-  "scripts": {
+"scripts": {
     "sass:build": "sass assets/_scss/main.scss assets/css/style.css",
     "sass:watch": "sass --watch assets/_scss/main.scss assets/css/style.css",
+    "eleventy:build": "eleventy",
     "eleventy:serve": "eleventy --serve",
     "start": "concurrently \"eleventy --serve\" \"sass --watch assets/_scss/main.scss assets/css/style.css\"",
-    "build": "npm-run-all sass:build eleventy"
+    "build": "npm-run-all sass:build eleventy:build"
   },
   "keywords": [
     "eleventy",
