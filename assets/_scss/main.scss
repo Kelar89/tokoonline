@@ -1,0 +1,11 @@
+// File ini adalah pusat dari semua styling kustom kita.
+
+// Langkah 1: Impor seluruh library Bootstrap dari node_modules
+// Ini memungkinkan kita untuk menggunakan semua variabel dan mixin Bootstrap.
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Langkah 2: Tambahkan style kustom Anda di bawah sini (opsional untuk sekarang)
+// Contoh:
+// body {
+//   background-color: #f0f0f0;
+// }

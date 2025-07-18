@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Kemeja Flanel Premium",
+    "slug": "kemeja-flanel-premium",
+    "image": "https://placehold.co/600x600/212529/FFF?text=Flanel",
+    "category": "Pakaian Pria",
+    "price": 185000,
+    "description": "Kemeja flanel lengan panjang dengan bahan katun premium yang lembut dan nyaman, cocok untuk gaya kasual sehari-hari."
+  },
+  {
+    "title": "Sneakers Kanvas Klasik",
+    "slug": "sneakers-kanvas-klasik",
+    "image": "https://placehold.co/600x600/E9ECEF/343A40?text=Sneakers",
+    "category": "Sepatu",
+    "price": 250000,
+    "description": "Sepatu sneakers berbahan kanvas tebal dengan sol karet yang kuat. Desain klasik yang tidak pernah ketinggalan zaman."
+  },
+  {
+    "title": "Tas Ransel Laptop",
+    "slug": "tas-ransel-laptop",
+    "image": "https://placehold.co/600x600/6C757D/FFF?text=Ransel",
+    "category": "Aksesoris",
+    "price": 220000,
+    "description": "Tas ransel modern dengan kompartemen khusus laptop hingga 15 inci. Bahan tahan air, nyaman untuk aktivitas harian."
+  },
+  {
+    "title": "Kaos Polos Katun Bambu",
+    "slug": "kaos-polos-katun-bambu",
+    "image": "https://placehold.co/600x600/343A40/FFF?text=Kaos",
+    "category": "Pakaian Pria",
+    "price": 95000,
+    "description": "Kaos polos super lembut dari bahan katun bambu organik. Adem, menyerap keringat, dan anti-bakteri."
+  },
+  {
+    "title": "Jam Tangan Digital Sporty",
+    "slug": "jam-tangan-digital-sporty",
+    "image": "https://placehold.co/600x600/ADB5BD/000?text=Jam",
+    "category": "Aksesoris",
+    "price": 150000,
+    "description": "Jam tangan digital dengan fitur stopwatch, alarm, dan lampu LED. Tahan air hingga kedalaman 30 meter."
+  },
+  {
+    "title": "Celana Chino Slim Fit",
+    "slug": "celana-chino-slim-fit",
+    "image": "https://placehold.co/600x600/495057/FFF?text=Chino",
+    "category": "Pakaian Pria",
+    "price": 210000,
+    "description": "Celana chino dengan potongan slim fit yang modern. Bahan katun stretch yang memberikan kenyamanan ekstra saat bergerak."
+  }
+]

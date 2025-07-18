@@ -1,0 +1,9 @@
+# Folder dependensi Node
+/node_modules
+
+# Folder output build Eleventy
+/_site
+
+# File log dan sistem operasi
+.DS_Store
+npm-debug.log

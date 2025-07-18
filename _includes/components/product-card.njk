@@ -1,0 +1,12 @@
+<div class="card h-100 shadow-sm">
+  <img src="{{ product.image }}" class="card-img-top" alt="{{ product.title }}">
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">{{ product.title }}</h5>
+    <p class="card-text small text-muted">{{ product.category }}</p>
+    <p class="card-text flex-grow-1">{{ product.description }}</p>
+    <h4 class="card-text text-end fw-bold text-primary">Rp{{ product.price | string | replace(",", ".") }}</h4>
+    <a href="https://wa.me/{{ metadata.contact.whatsapp }}?text=Halo, saya tertarik dengan produk '{{ product.title | url_encode }}'." target="_blank" class="btn btn-success mt-3">
+        <i class="bi bi-whatsapp"></i> Pesan Sekarang
+    </a>
+  </div>
+</div>

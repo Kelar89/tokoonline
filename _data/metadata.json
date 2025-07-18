@@ -1,0 +1,31 @@
+{
+  "storeName": "Kios Digital Anda",
+  "tagline": "Belanja Cepat, Transaksi Langsung ke WhatsApp.",
+  "url": "https://kelar89.github.io/NAMA_REPO_ANDA/",
+  "author": {
+    "name": "Admin Toko",
+    "email": "halo@emailtoko.com"
+  },
+  "contact": {
+    "whatsapp": "6281234567890",
+    "whatsappFormatted": "62 812-3456-7890",
+    "email": "halo@emailtoko.com"
+  },
+  "socials": [
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/username",
+      "icon": "bi-instagram"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://facebook.com/username",
+      "icon": "bi-facebook"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://tiktok.com/@username",
+      "icon": "bi-tiktok"
+    }
+  ]
+}
