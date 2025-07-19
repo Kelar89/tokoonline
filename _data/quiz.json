@@ -1,0 +1,55 @@
+{
+  "title": "Temukan Gaya Personal Anda",
+  "questions": [
+    {
+      "question_text": "Anda akan pergi ke acara apa?",
+      "answers": [
+        {
+          "answer_text": "Acara Santai (Hangout, Nonton)",
+          "image_url": "https://placehold.co/400x400/E9ECEF/343A40?text=Santai",
+          "value": "acara-santai"
+        },
+        {
+          "answer_text": "Acara Semi-Formal (Kondangan, Dinner)",
+          "image_url": "https://placehold.co/400x400/6C757D/FFF?text=Semi-Formal",
+          "value": "acara-semi-formal"
+        },
+        {
+          "answer_text": "Untuk Bekerja atau Kuliah",
+          "image_url": "https://placehold.co/400x400/212529/FFF?text=Kerja",
+          "value": "acara-kerja"
+        }
+      ]
+    },
+    {
+      "question_text": "Mana gaya yang paling Anda suka?",
+      "answers": [
+        {
+          "answer_text": "Kasual & Nyaman",
+          "image_url": "https://placehold.co/400x400/ADB5BD/000?text=Kasual",
+          "value": "gaya-kasual"
+        },
+        {
+          "answer_text": "Smart & Rapi",
+          "image_url": "https://placehold.co/400x400/495057/FFF?text=Smart",
+          "value": "gaya-smart"
+        }
+      ]
+    },
+    {
+      "question_text": "Anda lebih suka palet warna apa?",
+      "answers": [
+        {
+          "answer_text": "Warna Gelap & Netral",
+          "image_url": "https://placehold.co/400x400/343A40/FFF?text=Gelap",
+          "value": "warna-gelap"
+        },
+        {
+          "answer_text": "Warna Terang & Cerah",
+          "image_url": "https://placehold.co/400x400/F8F9FA/000?text=Terang",
+          "value": "warna-terang"
+        }
+      ]
+    }
+  ]
+}

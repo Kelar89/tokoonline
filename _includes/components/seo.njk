@@ -1,0 +1,14 @@
+<title>{{ title }} | {{ metadata.storeName }}</title>
+<meta name="description" content="{{ description or metadata.tagline }}">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ metadata.url }}{{ permalink or page.url }}">
+<meta property="og:title" content="{{ title }} | {{ metadata.storeName }}">
+<meta property="og:description" content="{{ description or metadata.tagline }}">
+<meta property="og:image" content="{{ image or 'https://placehold.co/1200x630/008080/FFFFFF?text=Kios+Digital+Anda' }}">
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ metadata.url }}{{ permalink or page.url }}">
+<meta property="twitter:title" content="{{ title }} | {{ metadata.storeName }}">
+<meta property="twitter:description" content="{{ description or metadata.tagline }}">
+<meta property="twitter:image" content="{{ image or 'https://placehold.co/1200x630/008080/FFFFFF?text=Kios+Digital+Anda' }}">

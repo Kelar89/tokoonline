@@ -17,7 +17,6 @@ description: "Jelajahi semua koleksi produk unggulan dari toko kami."
     <div class="col-auto">
       <div id="product-filters" class="btn-group" role="group" aria-label="Product Filters">
         <button type="button" class="btn btn-outline-dark active" data-filter="*">All</button>
-        {#- Ini baris yang diubah, sekarang menggunakan filter baru kita -#}
         {%- set categories = products | getUniqueCategories -%}
         {%- for category in categories -%}
         <button type="button" class="btn btn-outline-dark" data-filter="{{ category }}">{{ category }}</button>

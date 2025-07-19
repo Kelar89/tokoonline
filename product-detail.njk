@@ -22,7 +22,7 @@ permalink: /produk/{{ product.slug }}/index.html
 
       <p class="lead">{{ product.description }}</p>
 
-      <div class="d-grid gap-2 mt-4">
+<div class="d-grid gap-2 mt-4">
         <a href="https://wa.me/{{ metadata.contact.whatsapp }}?text=Halo, saya ingin pesan produk '{{ product.title | url_encode }}'." target="_blank" class="btn btn-success btn-lg">
           <i class="bi bi-whatsapp"></i> Pesan Sekarang via WhatsApp
         </a>
@@ -30,7 +30,9 @@ permalink: /produk/{{ product.slug }}/index.html
           <i class="bi bi-arrow-left"></i> Kembali ke Semua Produk
         </a>
       </div>
+      <p class="text-center text-muted small mt-2">
+        Anda akan langsung terhubung dengan admin kami untuk konfirmasi & pembayaran.
+      </p> 
     </div>
-
   </div>
 </div>

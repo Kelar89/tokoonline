@@ -1,14 +1,14 @@
 {
   "storeName": "Kios Digital Anda",
   "tagline": "Belanja Cepat, Transaksi Langsung ke WhatsApp.",
-  "url": "https://kelar89.github.io/NAMA_REPO_ANDA/",
+  "url": "https://kelar89.github.io/tokoonline/",
   "author": {
     "name": "Admin Toko",
     "email": "halo@emailtoko.com"
   },
   "contact": {
-    "whatsapp": "6281234567890",
-    "whatsappFormatted": "62 812-3456-7890",
+    "whatsapp": "6285894448143",
+    "whatsappFormatted": "+62 858-9444-8143",
     "email": "halo@emailtoko.com"
   },
   "socials": [
@@ -27,5 +27,6 @@
       "url": "https://tiktok.com/@username",
       "icon": "bi-tiktok"
     }
-  ]
+  ],
+  "dealEndDate": "2025-08-31T23:59:59"
 }

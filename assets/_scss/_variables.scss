@@ -1,0 +1,24 @@
+// Import Font dari Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lato:wght@400;700&family=Poppins:wght@600;700&display=swap');
+
+// 1. Definisikan Palet Warna Kustom Kita
+$teal: #008080;
+$beige: #F5F5DC;
+$charcoal: #36454F;
+
+// 2. Timpa (Override) Variabel Warna Bootstrap
+$primary:       $teal;
+$light:         $beige;
+$body-color:    $charcoal;
+
+// 3. Timpa Variabel Font Bootstrap
+$font-family-sans-serif: 'Lato', sans-serif;
+$headings-font-family:   'Poppins', sans-serif;
+$headings-font-weight:   700;
+
+// Font baru untuk sentuhan personal
+$font-family-handwriting: 'Caveat', cursive;
+$font-family-display:     'Poppins', sans-serif; // Variabel yang hilang sudah ditambahkan
+
+// 4. Kustomisasi Tambahan
+$border-radius: .4rem;

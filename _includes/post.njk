@@ -1,0 +1,23 @@
+---
+layout: base.njk
+---
+
+<div class="container my-5 py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+
+      <article>
+        <header class="mb-4">
+          <h1 class="fw-bold display-5 hero-headline">{{ title }}</h1>
+          <p class="text-muted">
+            Dipublikasikan pada {{ date | readableDate }}
+          </p>
+        </header>
+        <section class="post-content">
+          {{ content | safe }}
+        </section>
+      </article>
+
+    </div>
+  </div>
+</div>
